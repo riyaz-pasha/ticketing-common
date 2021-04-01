@@ -1,6 +1,6 @@
 {
   "name": "@riyazpasha/ticketing-common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -8,7 +8,7 @@
     "build/**/*"
   ],
   "scripts": {
-    "clean":"del ./build/*",
+    "clean": "del ./build/*",
     "build": "npm run clean && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
